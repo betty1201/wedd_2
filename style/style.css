@@ -5,148 +5,126 @@
 .ml79{
     margin-left: 79px;
 }
-
 *{
     color: #3F5D45;
     font-family: "PingFang TC" sans-serif;
 }
-
 img{
     display: block;
 }
-
-/*頂部*/
-.contain_head,.contain_center,.footer{
+a{text-decoration: none;}
+.contain{
     max-width: 940px;
     margin: 0 auto;
 }
 
-.top_head{
+/*navigation*/
+.navigation{
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 30px;
 }
-
 .logo img{
     width: 172px;
 }
 
-
-/*頂右*/
-.top_head ul{
+.navigation ul{
     display: flex;
     font-size: 16px;
 }
-
-.top_head li{
+.navigation li{
     margin-left: 60px;
 }
-
-.top_head li a{
+.navigation li a{
     display: block;
     margin: -10px;
     padding: 10px;
 }
-
-.top_head li a:hover{
+.navigation li a:hover{
     background:#EAF0ED;
 }
 
-/*中間*/
-.contain_center{
+/*menu*/
+.menu{
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
-
-/*中左*/
-.center_left{
+/*sideNav*/
+.sideNav{
     width: 300px;
 }
-
-.center_left h2{
+.sideNav h2{
     background: #3F5D45;
     color: #EAF0ED;
 }
-
-.center_left h2,.center_left a{
+.sideNav h2,.sideNav a{
     text-align: center;
     font-size: 24px;
     display: block;
     padding: 16px;
 }
-.center_left a{
+.sideNav a{
     border: 1px solid #EAF0ED;
     border-top: 0px solid #EAF0ED;
 }
-
-.center_left a:hover{
+.sideNav a:hover{
     background: #EAF0ED;
 }
-
-
-/*中右*/
-.center_right{
+/*commodity-lis*/
+.commodity-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 620px;
 }
-
-/*右邊內部*/
 .commodity{
     width: 300px;
     margin-bottom: 20px;
     position: relative;
     z-index: -1;
 }
-
-.featured{
+.commodity-title{
     position: absolute;
     font-size: 16px;
     letter-spacing: 5px;
     padding: 10px;
     background: #3F5D45;
     color: #EAF0ED;
-    margin-left: 20px;
+    left: 20px;
     writing-mode: vertical-lr;
 }
-
-.love{
+.commodity-love{
     position: absolute;
     margin-top: 16px;
     margin-left: 256px;
 }
-
-.name{
+.commodity-name{
     font-size: 20px;
     padding: 14px 33px;
 }
-.name span{
+.commodity-name span{
     margin-left: 58px;
     font-weight: bold;
 }
-
-.buy{
+.commodity-buy{
     background: #EAF0ED;
     display: block;
     font-size: 24px;
     padding: 16px 90px;
 }
-
-.buy:hover{
+.commodity-buy:hover{
     background: #3F5D45;
     color: #EAF0ED;
 }
 
-/*換頁*/
-.footer{
+/*pagination*/
+.pagination{
     display: flex;
     justify-content: flex-end;
 }
-
-.footer li{
+.pagination li{
     width: 60px;
     line-height: 60px;
     font-size: 20px;
